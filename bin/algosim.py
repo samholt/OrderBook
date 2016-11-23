@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from __future__ import print_function
+
 import sys
 from orderbook import OrderBook
 from six.moves import cStringIO
@@ -12,7 +12,6 @@ import json
 import copy
 import difflib
 import pprint
-
 
 d = difflib.Differ()
 format='html'
